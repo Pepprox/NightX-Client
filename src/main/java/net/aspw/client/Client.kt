@@ -42,7 +42,7 @@ object Client {
     const val CLIENT_STATUS = "$CLIENT_WEBSITE/database/data.txt"
     const val CLIENT_CONFIGLIST = "$CLIENT_WEBSITE/configs/string/list.txt"
     const val CLIENT_CONFIGS = "$CLIENT_WEBSITE/configs/"
-    val CLIENT_LATEST =
+    val CLIENT_LATEST = true
         if (!isInDevelopment) "$CLIENT_WEBSITE/database/latestversion.txt" else "$CLIENT_WEBSITE/database/betaversion.txt"
     //const val CLIENT_USERS = "$CLIENT_WEBSITE/users/list.txt"
 
